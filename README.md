@@ -47,6 +47,7 @@ A **JK Pizzaria API** é uma aplicação backend desenvolvida em Node.js que per
 - **POST** `/users`: Rota para criar novo usuário.
 - **POST** `/session`: Rota para login.
 
+## Rotas para usuários autenticados
 ### Category
 - **POST** `/category`: Cria uma nova categoria.
 - **GET** `/category`: Lista todas as categorias.
