@@ -7,7 +7,7 @@ class ListCategoryService {
                 id: true, 
                 name: true
             }
-        })
+        });
 
         return category;
     }
