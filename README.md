@@ -16,9 +16,11 @@ A **JK Pizzaria API** é uma aplicação backend desenvolvida em Node.js que per
 
 
 ## Funcionalidades
+- 🔐 – **Sistema de Autenticação**: Sistema de autenticação utilizando JWT.
 - 🛒 **Gerenciamento de Pedidos**: CRUD de pedidos com status e informações de clientes e dos produtos.
 - 🍕 **Gestão de Produtos**: Criação e customização de pizzas e demais produtos para preparação dos pedidos.
-- 📦 **Integração com WEB APP**: Integração plataforma front-end weeb e com app utilizado pelos atendentes para realização do pedido.
+- 🔗 **Integração com WEB **: Integração plataforma front-end web desenvolvida com react e nextjs.
+- 📱 **Integração com APP **: Integração com aplicação mobile desenvolvida com react native para os garçons anotarem os pedidos.
 
 ## Tecnologias Utilizadas
 - **Node.js**: Ambiente de execução para construir a API.
