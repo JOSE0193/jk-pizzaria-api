@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest  # Usando a imagem oficial do PostgreSQL
+    container_name: jk-pizzaria # Nome do container
+    environment:
+      POSTGRES_USER: postgres       # Nome de usuário do PostgreSQL
+      POSTGRES_PASSWORD: jk150115  # Senha para o usuário
+      POSTGRES_DB: jk-pizzaria     # Nome do banco de dados que será criado
+    ports:
+      - "5432:5432"               # Mapeamento da porta (5432 é a porta padrão do PostgreSQL)
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # Volume para persistir dados
+
+volumes:
+  postgres_data:
